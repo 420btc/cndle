@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "2.0.5",
+    "slug": "2.0.5",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://i.imgur.com/JZcwvSA.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "https://i.imgur.com/JZcwvSA.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.candlerush.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "https://i.imgur.com/JZcwvSA.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.candlerush.app",
+      "permissions": [
+        "INTERNET"
+      ],
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "https://i.imgur.com/JZcwvSA.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
