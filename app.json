@@ -30,7 +30,7 @@
       "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.jpg"
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
