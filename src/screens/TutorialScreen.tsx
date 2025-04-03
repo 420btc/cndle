@@ -15,80 +15,80 @@ import { Ionicons } from '@expo/vector-icons';
 // English tutorial content
 const englishTutorialContent = [
   {
-    title: "Welcome to Candle Rush! 🕯️₿",
+    title: "Welcome to Candle Rush! ",
     content: "Get ready to predict Bitcoin's price movements in this fast-paced trading game! Here's how to play:"
   },
   {
-    title: "Basic Gameplay 🎮",
+    title: "Basic Gameplay ",
     content: "Every minute, a new Bitcoin candle forms. Your job is simple:\\n\\n• Predict if the candle will be GREEN (price goes up) or RED (price goes down)\\n• Win coins when you're right, lose coins when you're wrong\\n• Start with 50 coins - don't lose them all!"
   },
   {
-    title: "Making Predictions 🎯",
-    content: "1. Tap BULL 🐂 if you think price will rise (green candle)\\n2. Tap BEAR 🐻 if you think price will fall (red candle)\\n3. Choose your bet amount - higher bets mean bigger rewards\\n4. Use DOUBLE BET for higher risk and reward"
+    title: "Making Predictions ",
+    content: "1. Tap BULL  if you think price will rise (green candle)\\n2. Tap BEAR  if you think price will fall (red candle)\\n3. Choose your bet amount - higher bets mean bigger rewards\\n4. Use DOUBLE BET for higher risk and reward"
   },
   {
-    title: "Candle Size Bonuses 💰",
+    title: "Candle Size Bonuses ",
     content: "Bigger price movements = bigger bonuses!\\n\\n• $0-$25: No bonus (small movement)\\n• $25-$75: +25% bonus\\n• $75-$150: +50% bonus\\n• $150-$250: +100% bonus (double your winnings!)\\n• $250-$400: +150% bonus\\n• $400-$600: +200% bonus\\n• >$600: +300% bonus (quadruple your winnings!)"
   },
   {
-    title: "Winning Streaks 🔥",
+    title: "Winning Streaks ",
     content: "Keep winning to build your streak:\\n\\n• 3 wins: x2 multiplier + 10 bonus coins\\n• 5 wins: x3 multiplier + 25 bonus coins\\n• 7 wins: x4 multiplier + 50 bonus coins\\n• 10 wins: x5 multiplier + 100 bonus coins"
   },
   {
-    title: "Wheel of Fortune 🎡",
-    content: "For 1000 coins, spin the Wheel of Fortune for amazing prizes!\\n\\n• Tap the GIFT icon (🎁) in the game screen to access the wheel\\n• Win up to 5000 coins or special bonuses\\n• Limited to 3 spins every 24 hours\\n\\nThe wheel contains various prizes including coins and a special LUCKY BONUS that guarantees a x2 multiplier on your next bet!"
+    title: "Wheel of Fortune ",
+    content: "For 1000 coins, spin the Wheel of Fortune for amazing prizes!\\n\\n• Tap the GIFT icon () in the game screen to access the wheel\\n• Win up to 5000 coins or special bonuses\\n• Limited to 3 spins every 24 hours\\n\\nThe wheel contains various prizes including coins and a special LUCKY BONUS that guarantees a x2 multiplier on your next bet!"
   },
   {
-    title: "Market Momentum 📈",
+    title: "Market Momentum ",
     content: "The game tracks market momentum - consecutive candles in the same direction:\\n\\n• 3+ candles: +10% bonus\\n• 6+ candles: +50% bonus\\n• 9+ candles: +100% bonus\\n• 12+ candles: +150% bonus\\n\\nUse this information to make smarter predictions!"
   },
   {
-    title: "Game Over & Comeback 🔄",
+    title: "Game Over & Comeback ",
     content: "If you lose all your coins:\\n\\n• Watch an ad to get 50 coins + lucky bonus\\n• Wait for free 20 coins\\n• Or restart with fresh 50 coins\\n\\nYour progress is automatically saved!"
   },
   {
-    title: "Pro Tips 💡",
-    content: "• Start with small bets to learn the patterns\\n• Use DOUBLE BET when you're confident\\n• Save coins for the Wheel of Fortune\\n• Watch for market momentum to increase your odds\\n• Check candle sizes for potential big bonuses\\n\\nGood luck, trader! 🚀"
+    title: "Pro Tips ",
+    content: "• Start with small bets to learn the patterns\\n• Use DOUBLE BET when you're confident\\n• Save coins for the Wheel of Fortune\\n• Watch for market momentum to increase your odds\\n• Check candle sizes for potential big bonuses\\n\\nGood luck, trader! "
   }
 ];
 
 // Spanish tutorial content
 const spanishTutorialContent = [
   {
-    title: "¡Bienvenido a Candle Rush! 🕯️₿",
+    title: "¡Bienvenido a Candle Rush! ",
     content: "¡Prepárate para predecir los movimientos del precio de Bitcoin en este juego de trading rápido! Así es como se juega:"
   },
   {
-    title: "Jugabilidad Básica 🎮",
-    content: "Cada minuto, se forma una nueva vela de Bitcoin. Tu trabajo es simple:\\n\\n• Predice si la vela será VERDE (el precio sube) o ROJA (el precio baja)\\n• Gana monedas cuando aciertes, pierde monedas cuando te equivoques\\n• Comienzas con 50 monedas - ¡no las pierdas todas!"
+    title: "Jugabilidad Básica ",
+    content: "Cada minuto, se forma una nueva vela de Bitcoin. Tu trabajo es simple:\\n\\n• Predice si la vela será VERDE (el precio sube) o ROJA (el precio baja)\\n• Gana monedas cuando aciertas, pierde monedas cuando te equivoques\\n• Comienzas con 50 monedas - ¡no las pierdas todas!"
   },
   {
-    title: "Haciendo Predicciones 🎯",
-    content: "1. Toca TORO 🐂 si crees que el precio subirá (vela verde)\\n2. Toca OSO 🐻 si crees que el precio bajará (vela roja)\\n3. Elige tu cantidad de apuesta - apuestas más altas significan mayores recompensas\\n4. Usa APUESTA DOBLE para mayor riesgo y recompensa"
+    title: "Haciendo Predicciones ",
+    content: "1. Toca TORO  si crees que el precio subirá (vela verde)\\n2. Toca OSO  si crees que el precio bajará (vela roja)\\n3. Elige tu cantidad de apuesta - apuestas más altas significan mayores recompensas\\n4. Usa APUESTA DOBLE para mayor riesgo y recompensa"
   },
   {
-    title: "Bonos por Tamaño de Vela 💰",
+    title: "Bonos por Tamaño de Vela ",
     content: "¡Movimientos de precio más grandes = bonos más grandes!\\n\\n• $0-$25: Sin bono (movimiento pequeño)\\n• $25-$75: +25% de bono\\n• $75-$150: +50% de bono\\n• $150-$250: +100% de bono (¡duplica tus ganancias!)\\n• $250-$400: +150% de bono\\n• $400-$600: +200% de bono\\n• >$600: +300% de bono (¡cuadruplica tus ganancias!)"
   },
   {
-    title: "Rachas Ganadoras 🔥",
+    title: "Rachas Ganadoras ",
     content: "Sigue ganando para construir tu racha:\\n\\n• 3 victorias: multiplicador x2 + 10 monedas de bonificación\\n• 5 victorias: multiplicador x3 + 25 monedas de bonificación\\n• 7 victorias: multiplicador x4 + 50 monedas de bonificación\\n• 10 victorias: multiplicador x5 + 100 monedas de bonificación"
   },
   {
-    title: "Rueda de la Fortuna 🎡",
-    content: "¡Por 1000 monedas, gira la Rueda de la Fortuna para obtener premios increíbles!\\n\\n• Toca el icono de REGALO (🎁) en la pantalla del juego para acceder a la rueda\\n• Gana hasta 5000 monedas o bonos especiales\\n• Limitado a 3 giros cada 24 horas\\n\\n¡La rueda contiene varios premios, incluyendo monedas y un BONO DE SUERTE especial que garantiza un multiplicador x2 en tu próxima apuesta!"
+    title: "Rueda de la Fortuna ",
+    content: "¡Por 1000 monedas, gira la Rueda de la Fortuna para obtener premios increíbles!\\n\\n• Toca el icono de REGALO () en la pantalla del juego para acceder a la rueda\\n• Gana hasta 5000 monedas o bonos especiales\\n• Limitado a 3 giros cada 24 horas\\n\\n¡La rueda contiene varios premios, incluyendo monedas y un BONO DE SUERTE especial que garantiza un multiplicador x2 en tu próxima apuesta!"
   },
   {
-    title: "Impulso del Mercado 📈",
+    title: "Impulso del Mercado ",
     content: "El juego rastrea el impulso del mercado - velas consecutivas en la misma dirección:\\n\\n• 3+ velas: +10% de bono\\n• 6+ velas: +50% de bono\\n• 9+ velas: +100% de bono\\n• 12+ velas: +150% de bono\\n\\n¡Usa esta información para hacer predicciones más inteligentes!"
   },
   {
-    title: "Game Over y Regreso 🔄",
+    title: "Game Over y Regreso ",
     content: "Si pierdes todas tus monedas:\\n\\n• Mira un anuncio para obtener 50 monedas + bono de suerte\\n• Espera 20 monedas gratis\\n• O reinicia con 50 monedas frescas\\n\\n¡Tu progreso se guarda automáticamente!"
   },
   {
-    title: "Consejos Pro 💡",
-    content: "• Comienza con apuestas pequeñas para aprender los patrones\\n• Usa APUESTA DOBLE cuando estés seguro\\n• Ahorra monedas para la Rueda de la Fortuna\\n• Observa el impulso del mercado para aumentar tus probabilidades\\n• Verifica los tamaños de las velas para posibles grandes bonos\\n\\n¡Buena suerte, trader! 🚀"
+    title: "Consejos Pro ",
+    content: "• Comienza con apuestas pequeñas para aprender los patrones\\n• Usa APUESTA DOBLE cuando estés seguro\\n• Ahorra monedas para la Rueda de la Fortuna\\n• Observa el impulso del mercado para aumentar tus probabilidades\\n• Verifica los tamaños de las velas para posibles grandes bonos\\n\\n¡Buena suerte, trader! "
   }
 ];
 
@@ -147,7 +147,7 @@ const TutorialScreen: React.FC = () => {
             </Text>
           </View>
           <Image 
-            source={{ uri: 'https://i.imgur.com/JZcwvSA.png' }} 
+            source={require('../../assets/tutorial_image.png')} 
             style={styles.wheelImage}
             resizeMode="contain"
           />
@@ -164,7 +164,7 @@ const TutorialScreen: React.FC = () => {
         </TouchableOpacity>
         
         <Text style={styles.creditsText}>
-          {isSpanish ? "Hecho con ❤️ por Carlos Freire" : "Made with ❤️ by Carlos Freire"}
+          {isSpanish ? "Hecho con  por Carlos Freire" : "Made with  by Carlos Freire"}
         </Text>
         
         {/* Language toggle button with flag style */}

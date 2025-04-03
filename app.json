@@ -4,10 +4,10 @@
     "slug": "2.0.5",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "https://i.imgur.com/JZcwvSA.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "https://i.imgur.com/JZcwvSA.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#121212"
     },
@@ -20,7 +20,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "https://i.imgur.com/JZcwvSA.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#121212"
       },
       "package": "com.candlerush.app",
@@ -30,7 +30,7 @@
       "versionCode": 1
     },
     "web": {
-      "favicon": "https://i.imgur.com/JZcwvSA.png"
+      "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
