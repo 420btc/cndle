@@ -1,3 +1,6 @@
 [build]
   command = "npx expo export:web"
   publish = "web-build/"
+
+[build.environment]
+  NODE_OPTIONS = "--openssl-legacy-provider"
